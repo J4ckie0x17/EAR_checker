@@ -18,6 +18,14 @@ A successful EAR exploit can lead to unauthorized data exposure — and in some 
 - Shows HTTP version dynamically (1.0, 1.1, 2)
 - Colorful ASCII banner 😎
 - Fully CLI-friendly
+---
+## POC
+- There are 2 directories available in the website:
+	- /login
+	- /admin
+- When access to /admin it redirects to /login because we don't have any valid credentials.
+[Demo video (MP4)](./poc/EAR_POC.mp4)
+
 
 ---
 
