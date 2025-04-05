@@ -7,7 +7,7 @@
 ## 🚀 Features
 
 - Detects EAR via misused HTTP redirection (301, 302, 303, 307, 308)
-- Prints Burp Suite `Match and Replace` rules for quick testing
+- Prints Burp Suite `Match and Replace` rules for quick exploitation (if it's vulnerable)
 - Shows HTTP version dynamically (1.0, 1.1, 2)
 - Colorful ASCII banner 😎
 - Fully CLI-friendly
