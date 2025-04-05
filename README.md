@@ -41,9 +41,6 @@ pip3 install -r requirements.txt
 ```python
 python3 EAR_checker.py -u http://TARGET_IP -d /admin
 ```
-```python
-python3 EAR_checker.py -u http://10.129.28.59 -d /admin
-```
 
 ## 💡 Tip for Burp Suite:
 
