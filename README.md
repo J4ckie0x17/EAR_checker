@@ -24,6 +24,9 @@ A successful EAR exploit can lead to unauthorized data exposure — and in some 
 	- /login
 	- /admin
 - When access to /admin it redirects to /login because we don't have any valid credentials.
+
+Here you can see an example of how to use it:
+
 ![Demo EAR](https://github.com/user-attachments/assets/8a34aea5-332e-4e1c-b368-9fe157d7ee58)
 
 
