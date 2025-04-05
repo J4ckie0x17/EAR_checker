@@ -3,6 +3,13 @@
 🔍 A Python tool to detect EAR (External After Redirect / Authentication Bypass via Direct Access) vulnerabilities based on misconfigured redirection with content.
 
 ---
+## ❓ What is an EAR Vulnerability?
+
+**Execution After Redirect (EAR)** is an attack in which an attacker intentionally ignores redirection responses (such as HTTP 30X) and directly retrieves sensitive content that was intended only for authenticated users.
+
+A successful EAR exploit can lead to unauthorized data exposure — and in some cases, complete compromise of the application.
+
+---
 
 ## 🚀 Features
 
