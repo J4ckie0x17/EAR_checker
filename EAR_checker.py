@@ -19,7 +19,7 @@ Version: 1.0
 
 parser = argparse.ArgumentParser(description="EAR Vulnerability Checker")
 parser.add_argument("-u", "--url", required=True, help="URL base, ej: http://10.10.10.10")
-parser.add_argument("-d", "--directory", required=True, help="Directorio a probar, ej: /admin")
+parser.add_argument("-d", "--directory", required=True, help="Directory to test, ej: /admin")
 args = parser.parse_args()
 
 URL = args.url
@@ -51,8 +51,8 @@ def EAR_check(response):
             original_status_line = f"{http_version} {status} FOUND"
             modified_status_line = f"{http_version} 200 FOUND"
 
-            print(f"\n[!] Vulnerabilidad detectada en: {response.url}")
-            print("\n🔁 Usa esto en BurpSuite → Match and Replace:")
+            print(f"\n[!] Vulnerability detected in: {response.url}")
+            print("\n🔁 Use this in BurpSuite → Match and Replace:")
             print(f"Match:   {original_status_line}")
             print(f"Replace: {modified_status_line}")
 
