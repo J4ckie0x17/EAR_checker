@@ -36,8 +36,9 @@ python3 EAR_checker.py -u http://10.129.28.59 -d /admin
 
 ## 💡 Tip for Burp Suite:
 
-Use the generated `Match` and `Replace` output in:
+If it appears vulnerable, the tool generates what to put in the BurpSuite in Match and Replace
 
+Use the generated `Match` and `Replace` output in:
 
 `Proxy → Options → Match and Replace`
 
@@ -45,4 +46,4 @@ Example rule:
 
 |Match|Replace|
 |---|---|
-|`HTTP/1.1 302 FOUND`|`HTTP/1.1 200 FOUND`|
+|`HTTP/1.1 30X FOUND`|`HTTP/1.1 200 FOUND`|
