@@ -1,6 +1,6 @@
 # EAR Checker
 
-🔍 A Python tool to detect EAR (External Attack Surface / Access Control Bypass) vulnerabilities based on misconfigured redirection with content.
+🔍 A Python tool to detect EAR (External After Redirect / Authentication Bypass via Direct Access) vulnerabilities based on misconfigured redirection with content.
 
 ---
 
