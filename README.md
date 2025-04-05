@@ -27,11 +27,6 @@ python3 EAR_checker.py -u http://TARGET_IP -d /admin
 python3 EAR_checker.py -u http://10.129.28.59 -d /admin
 ```
 
-
-## 🧠 What is EAR?
-
-EAR (Execution After Redirext) is a vulnerability where redirection logic (like 30X Found) leaks sensitive content inside the response body, instead of enforcing access control correctly.
-
 ## 💡 Tip for Burp Suite:
 
 Use the generated `Match` and `Replace` output in:
