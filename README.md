@@ -30,7 +30,7 @@ python3 EAR_checker.py -u http://10.129.28.59 -d /admin
 
 ## 🧠 What is EAR?
 
-EAR (External Attack Surface or Access Restriction bypass) is a vulnerability where redirection logic (like 302 Found) leaks sensitive content inside the response body, instead of enforcing access control correctly.
+EAR (Execution After Redirext) is a vulnerability where redirection logic (like 30X Found) leaks sensitive content inside the response body, instead of enforcing access control correctly.
 
 ## 💡 Tip for Burp Suite:
 
